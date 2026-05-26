@@ -759,6 +759,30 @@ footer .footer-tag {
   margin-bottom: 1.5rem;
 }
 
+footer .footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+footer .footer-links a {
+  color: var(--cream-dark);
+  text-decoration: none;
+  font-size: 0.88rem;
+  border-bottom: 1px solid rgba(245, 237, 224, 0.25);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+footer .footer-links a:hover {
+  color: var(--cream-light);
+  border-color: var(--cream-light);
+}
+
 footer .footer-thanks {
   font-size: 0.9rem;
   color: var(--cream-dark);
@@ -768,6 +792,86 @@ footer .footer-thanks {
 }
 
 footer .heart { color: var(--red); }
+
+/* ============ SQUARE NOTICE ============ */
+.square-notice {
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--brown-warm);
+  line-height: 1.5;
+}
+.square-notice a {
+  color: var(--brown);
+  text-decoration: underline;
+}
+
+/* ============ LEGAL PAGES ============ */
+.legal-page {
+  padding: 9rem 0 5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.legal-page .container {
+  max-width: 780px;
+}
+
+.legal-page h1.section-title {
+  margin-bottom: 0.5rem;
+}
+
+.legal-page .legal-updated {
+  color: var(--brown-warm);
+  font-style: italic;
+  font-size: 0.92rem;
+  margin-bottom: 2.5rem;
+}
+
+.legal-page h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--brown-deep);
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.01em;
+}
+
+.legal-page p,
+.legal-page li {
+  color: var(--brown);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0.9rem;
+}
+
+.legal-page ul {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.legal-page li {
+  margin-bottom: 0.5rem;
+}
+
+.legal-page a {
+  color: var(--red);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.legal-page a:hover { color: var(--red-dark); }
+
+.legal-page strong { color: var(--brown-deep); }
+
+.legal-back {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(107, 74, 43, 0.15);
+}
 
 /* ============ ANIMATIONS ============ */
 @keyframes floatIn {

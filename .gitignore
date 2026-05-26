@@ -11,3 +11,5 @@ desktop.ini
 .idea/
 *.swp
 *.bak
+
+.claude/
