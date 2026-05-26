@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>La Chouette Boulangère — Boulangerie artisanale</title>
+<meta name="description" content="Boulangerie artisanale. Précommandes hebdomadaires, pains au levain cuits avec amour. Ramassage le samedi à St-Victor." />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">La Chouette Boulangère</a>
+    <ul class="nav-links">
+      <li><a href="#nos-pains">Nos pains</a></li>
+      <li><a href="#commander">Commander</a></li>
+      <li><a href="#point-de-vente">Point de vente</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Réserver</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <span class="hero-decor left">artisanal</span>
+  <span class="hero-decor right">levain</span>
+  <div class="container">
+    <img src="logo.png" alt="La Chouette Boulangère" class="hero-logo" />
+    <h1>Du pain <em>fait main</em>,<br />cuit avec amour.</h1>
+    <p class="hero-tagline">Précommandes hebdomadaires &mdash; ramassage le samedi</p>
+    <div class="hero-cta-group">
+      <a href="#nos-pains" class="btn btn-primary">Réserver ma miche
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <a href="#commander" class="btn btn-secondary">Comment ça marche ?</a>
+    </div>
+  </div>
+  <div class="scroll-hint">Faites défiler</div>
+</header>
+
+<!-- ABOUT -->
+<section class="about reveal">
+  <div class="container text-center">
+    <span class="section-label">Notre savoir-faire</span>
+    <h2 class="section-title">Une boulangerie <em>artisanale</em></h2>
+    <p class="section-intro">Chaque miche est pétrie à la main et cuite avec soin, dans le respect de la tradition. Des ingrédients simples, du temps, et beaucoup de passion.</p>
+
+    <div class="about-grid">
+      <div class="about-item">
+        <div class="about-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M9 5l3-3 3 3"/><path d="M5 12c0-3.87 3.13-7 7-7s7 3.13 7 7v8H5z"/></svg>
+        </div>
+        <h3>Fait main</h3>
+        <p>Pétri, façonné et cuit à la main, sans raccourci industriel.</p>
+      </div>
+      <div class="about-item">
+        <div class="about-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Frais du four</h3>
+        <p>Cuit le matin même de la livraison, prêt à être savouré.</p>
+      </div>
+      <div class="about-item">
+        <div class="about-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Avec amour</h3>
+        <p>Une petite production hebdomadaire, pour une qualité constante.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="schedule reveal" id="precommandes">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Précommandes hebdomadaires</span>
+      <h2 class="section-title">Réservez du <em>lundi au mercredi</em></h2>
+      <p class="section-intro">Les précommandes ouvrent en début de semaine pour un ramassage le samedi. Une petite fenêtre, mais toute la fraîcheur garantie.</p>
+    </div>
+
+    <div class="schedule-card">
+      <div class="schedule-row">
+        <div class="schedule-item">
+          <h4>Ouverture</h4>
+          <div class="day">Lundi</div>
+          <div class="time">9 h 00</div>
+        </div>
+        <div class="schedule-divider"></div>
+        <div class="schedule-item">
+          <h4>Fermeture</h4>
+          <div class="day">Mercredi</div>
+          <div class="time">19 h 00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu reveal" id="nos-pains">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">La carte</span>
+      <h2 class="section-title">Nos <em>pains</em> de la semaine</h2>
+      <p class="section-intro">Quatre miches au caractère bien trempé. Réservation et paiement en ligne sécurisé via Square.</p>
+      <div class="square-badge">Paiement sécurisé via Square</div>
+    </div>
+
+    <div class="menu-grid">
+      <!--
+        SQUARE - Comment connecter le paiement :
+        1. Créer un compte sur https://squareup.com/
+        2. Dans le Dashboard → Articles, ajouter chaque pain
+        3. Cliquer "Créer un lien de paiement" pour générer une URL Square Checkout
+        4. Remplacer "https://square.link/u/REMPLACER" ci-dessous par chaque lien
+      -->
+      <div class="bread-card">
+        <img src="icon-baguette.png" alt="" class="bread-icon" />
+        <div class="bread-header">
+          <div class="bread-name">Le Classique</div>
+          <div class="bread-price">10 <small>$</small></div>
+        </div>
+        <p class="bread-desc">La miche signature : croûte dorée, mie aérée, goût authentique. Indémodable.</p>
+        <a href="https://square.link/u/REMPLACER" target="_blank" rel="noopener" class="bread-buy">
+          Réserver &amp; payer
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="bread-card">
+        <img src="icon-trois-bles.png" alt="" class="bread-icon" />
+        <div class="bread-header">
+          <div class="bread-name">Le Trois Blés</div>
+          <div class="bread-price">10 <small>$</small></div>
+        </div>
+        <p class="bread-desc">Un assemblage de trois céréales pour une mie rustique et un léger goût de noisette.</p>
+        <span class="bread-tag">Note de noisette</span>
+        <br />
+        <a href="https://square.link/u/REMPLACER" target="_blank" rel="noopener" class="bread-buy">
+          Réserver &amp; payer
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="bread-card">
+        <img src="icon-avoine.png" alt="" class="bread-icon" />
+        <div class="bread-header">
+          <div class="bread-name">L'avoine dorée</div>
+          <div class="bread-price">11 <small>$</small></div>
+        </div>
+        <p class="bread-desc">Un pain doux et nourrissant, sublimé par l'avoine grillée. Parfait au petit-déjeuner.</p>
+        <a href="https://square.link/u/REMPLACER" target="_blank" rel="noopener" class="bread-buy">
+          Réserver &amp; payer
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="bread-card">
+        <img src="icon-piquant.png" alt="" class="bread-icon" />
+        <div class="bread-header">
+          <div class="bread-name">Le Piquant</div>
+          <div class="bread-price">12 <small>$</small></div>
+        </div>
+        <p class="bread-desc">Le pain audacieux : jalapeño et cheddar pour un combo qui réveille les papilles.</p>
+        <span class="bread-tag">Jalapeño &amp; cheddar</span>
+        <br />
+        <a href="https://square.link/u/REMPLACER" target="_blank" rel="noopener" class="bread-buy">
+          Réserver &amp; payer
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER PROCESS -->
+<section class="reveal" id="commander">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Comment ça marche ?</span>
+      <h2 class="section-title">Commander, c'est <em>simple</em></h2>
+      <p class="section-intro">Quatre petites étapes entre vous et votre miche fraîchement cuite.</p>
+    </div>
+
+    <div class="order-steps">
+      <div class="step">
+        <h4>Choisissez votre pain</h4>
+        <p>Du lundi 9 h au mercredi 19 h, cliquez sur la miche qui vous fait envie.</p>
+      </div>
+      <div class="step">
+        <h4>Payez via Square</h4>
+        <p>Paiement à l'avance, en ligne, sécurisé et sans contact.</p>
+      </div>
+      <div class="step">
+        <h4>Recevez le lieu</h4>
+        <p>Le point de ramassage vous est communiqué une fois la commande confirmée.</p>
+      </div>
+      <div class="step">
+        <h4>Ramassez samedi</h4>
+        <p>Entre 11 h et 12 h, votre pain est prêt, encore tiède du four.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POINT OF SALE -->
+<section class="pos reveal" id="point-de-vente">
+  <div class="container">
+    <div class="pos-grid">
+      <div>
+        <span class="section-label">Point de vente</span>
+        <h2 class="section-title">À <em>La Mignonne Beauceronne</em></h2>
+        <p class="lead">Nos pains sont également disponibles à St-Victor, dans ce charmant café gourmand.</p>
+        <p class="lead">Une autre belle façon de découvrir nos miches : sans réservation, dans une jolie boutique du coin.</p>
+      </div>
+
+      <div class="pos-info">
+        <h3>La Mignonne Beauceronne</h3>
+        <div class="place">Café gourmand &middot; St-Victor</div>
+        <ul>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Disponible à partir du samedi
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Dès 10 h, jusqu'à épuisement des stocks
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            St-Victor, Beauce
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section reveal" id="contact">
+  <div class="container">
+    <div class="cta-card">
+      <h2>Prêt&middot;e à réserver votre miche ?</h2>
+      <p>Réservation et paiement en ligne en quelques clics &mdash; via Square.</p>
+      <a href="#nos-pains" class="btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        Voir nos pains
+      </a>
+      <p class="cta-question">Une question ? <a href="#">Envoyez-nous un message</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-brand">La Chouette Boulangère</div>
+    <div class="footer-tag">Boulangerie artisanale &middot; St-Victor</div>
+    <div class="footer-thanks">
+      Merci de soutenir notre boulangerie artisanale <span class="heart">&hearts;</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>

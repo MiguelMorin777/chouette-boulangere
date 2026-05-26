@@ -1,0 +1,13 @@
+# Fichier source du flyer original (pas nécessaire au site web)
+680473879_122119636929238453_1909228353307636765_n.jpg
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.bak
